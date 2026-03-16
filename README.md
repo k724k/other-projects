@@ -10,6 +10,42 @@
 
 ---
 
+## ⚙️ MSA Project (개인 프로젝트)
+
+MSA 아키텍처와 Kafka 이벤트 기반 통신을 적용한 **개인 학습 프로젝트**
+
+**기간**  
+2025.11 ~ 2025.12
+
+**Tech Stack**  
+Java, Spring Boot, Kafka, Docker, AWS, MySQL
+
+**구현 내용**
+
+- Gateway / User / Board / Point 서비스 **MSA 구조 분리**
+- Kafka 기반 **이벤트 중심 비동기 통신 구조 구현**
+- 포인트 적립 및 롤백 로직 구현으로 **보상 트랜잭션 패턴 적용**
+
+---
+
+## 🚀 Deploy Practice (개인 프로젝트)
+
+AWS 기반 인프라 구축과 CI/CD 자동화를 실습한 프로젝트
+
+**기간**  
+2025.08 ~ 2025.11
+
+**Tech Stack**  
+AWS EC2, ALB, RDS, S3, Route53, Docker, GitHub Actions
+
+**구현 내용**
+
+- EC2 · ALB · RDS 기반 **백엔드 서비스 배포 환경 구축**
+- Route53 도메인 연결 및 HTTPS 인증 적용
+- GitHub Actions · Docker 기반 **CI/CD 파이프라인 자동화**
+
+---
+
 ## 🏔 지금, 여기, 인제
 
 인제군 관광 콘텐츠 및 운영 관리를 위한 **통합 관광 플랫폼**
@@ -52,7 +88,7 @@ Java, Spring Boot, JPA, MyBatis, MySQL
 
 ---
 
-## 🌊 고고 양양
+## 🏔 고고 양양
 
 양양군 관광 콘텐츠 제공을 위한 **관광 플랫폼**
 
@@ -94,36 +130,18 @@ Java, Spring Boot, JPA, MyBatis, MySQL
 
 ---
 
-## ⚙️ MSA Project (개인 프로젝트)
+## 🏢 2023 대한민국 정부 박람회
 
-MSA 아키텍처와 Kafka 이벤트 기반 통신을 적용한 **개인 학습 프로젝트**
+정부 혁신 및 공공 서비스 정보를 제공하는 **박람회 플랫폼**
 
-**기간**  
-2025.11 ~ 2025.12
-
-**Tech Stack**  
-Java, Spring Boot, Kafka, Docker, AWS, MySQL
-
-**구현 내용**
-
-- Gateway / User / Board / Point 서비스 **MSA 구조 분리**
-- Kafka 기반 **이벤트 중심 비동기 통신 구조 구현**
-- 포인트 적립 및 롤백 로직 구현으로 **보상 트랜잭션 패턴 적용**
-
----
-
-## 🚀 Deploy Practice (개인 프로젝트)
-
-AWS 기반 인프라 구축과 CI/CD 자동화를 실습한 프로젝트
-
-**기간**  
-2025.08 ~ 2025.11
+**구분**  
+회사 프로젝트
 
 **Tech Stack**  
-AWS EC2, ALB, RDS, S3, Route53, Docker, GitHub Actions
+Java, Spring Boot, JPA, MyBatis, MySQL
 
-**구현 내용**
+**담당 역할**
 
-- EC2 · ALB · RDS 기반 **백엔드 서비스 배포 환경 구축**
-- Route53 도메인 연결 및 HTTPS 인증 적용
-- GitHub Actions · Docker 기반 **CI/CD 파이프라인 자동화**
+- 박람회 정보 제공 및 게시판 기능 **백엔드 API 개발**
+- 관리자 콘텐츠 관리 기능 구현
+- 공통 코드 및 게시판 구조 설계
